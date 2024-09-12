@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center><u>Registration Form</u> </center></h1>
+    <form>
+        <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="password">password:</label><br>
+    <input type="password" ><br>
+    <label for="email">Email:</label><br>
+    <input type="email" placeholder=name@domain.com required><br>
+    <label for="number">Ph.no</label><br>
+    <input type="tel" pattern="\(\d{3}\)+\d{3}-\d{4}" required><br>
+    <label for="laguages">languages</label><br>
+    <input type="checkbox" value="telugu">telugu
+    <input type="checkbox" value="english">english
+    <input type="checkbox" value="hindi">hindi <br>
+ <label for="date of birth"> Date of birth:</label><br>
+    <input type="date" required><br>
+
+ Select the country:<br>    
+    <input type=" text" id="txlist" list="country">
+    <datalist id="country">
+            <option value="india">
+            <option value="pakisthan">
+            <option value="china">
+            <option value="America">
+            <option value="Austrila">
+            <option value="japan">
+            </datalist><br>
+
+   <label for="Address">Address:</label>  <br>
+    <input type="address" required><br>
+
+    <label for="Gender">Gender:</label><br>
+    <input type="radio" name="gender" value="male">male
+    <input type="radio" name="gender" value="female">female<br>
+<label for="comments">Comments:</label><br>
+    <textarea name="string" id="sting" rows="5" cols="30"></textarea><br>
+    <input type="submit" value="submit">
+    <input type="cancel" value="cancel">
+    <input type="reset" value="reset">
+
+  </form> 
+</body>
+</html>
